@@ -1,0 +1,17 @@
+.container {
+    max-width: none !important;
+    background-image: url(배3.jpg);
+    background-position: center 0;
+}
+/* 프로필 페이지 내의 정보 텍스트 및 라벨을 하얀색으로 변경 (소개란 제외) */
+.player-profile .main-content .stat-box,
+.player-profile .main-content .profile-row,
+.player-profile .main-content table,
+    color: #ffffff !important;
+}
+
+/* 유저 이름 및 레이팅 등 상단 헤더 글씨 흰색 고정 */
+.player-profile .profile-header * {
+    color: #ffffff !important;
+}
+
